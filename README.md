@@ -1,15 +1,15 @@
 # Cpp-Lab1
 ## Интрукция по запуску утилиты Hasher:
-``git clone https://github.com/dan-taranetc/Cpp-Lab1.git``
-``cd Cpp-Lab1 && mkdir cmake_dir && cd cmake_dir``
-``cmake .. && make``
+``git clone https://github.com/dan-taranetc/Cpp-Lab1.git``  
+``cd Cpp-Lab1 && mkdir cmake_dir && cd cmake_dir``  
+``cmake .. && make``  
 
 Утилита собрана, можно запускать ее:
-``./hasher -m <mode> <filename>`` 
-или
-``./hasher <filename> -m <mode>`` 
+``./hasher -m <mode> <filename>``   
+или  
+``./hasher <filename> -m <mode>``   
 
-Где $mode \in {adler32, sum64}$
+Где mode adler32 или sum64
 
 Возможности:
 Программа считает 2 варианта кэша от файла:
