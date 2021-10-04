@@ -4,7 +4,7 @@
 ``cd Cpp-Lab1 && mkdir cmake_dir && cd cmake_dir``  
 ``cmake .. && make``  
 
-Утилита собрана, можно запускать ее:
+Утилита собрана, можно запускать ее:  
 ``./hasher -m <mode> <filename>``   
 или  
 ``./hasher <filename> -m <mode>``   
